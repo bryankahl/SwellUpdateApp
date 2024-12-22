@@ -317,11 +317,14 @@
 				DEVELOPMENT_TEAM = 3F89FA87D2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwellUpdate/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to capture photos or videos.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires location access to display surf spots near you";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "his app needs your location to show surf spots on the map.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to record videos.\n";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -346,11 +349,14 @@
 				DEVELOPMENT_TEAM = 3F89FA87D2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwellUpdate/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to capture photos or videos.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires location access to display surf spots near you";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "his app needs your location to show surf spots on the map.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to record videos.\n";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
