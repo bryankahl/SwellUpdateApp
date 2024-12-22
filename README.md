@@ -32,12 +32,15 @@ This is an iOS application that provides surf forecast for surf spots around the
 - **Singleton Service**: SurfSpotService deals with the API actions.
 - **Data Handling**: Firebase for the real time updates and codeable for parsing through the JSON.
 
-## Limitations
+## Limitations and Future Updates
 
 - **API Limitations**: Limited to free tier API constraints, which limits the number of surf spots displayed. Use testSpots.json instead of surfspots.json to test a smaller number of spots (New Jersey).
-- **Media Uploads**: Uses Firebase Storage for images and videos. Needs changes to support larger files. 
+- **Media Uploads**: Uses Firebase Storage for images and videos. Needs changes to support larger files.
+- **UI Improvement**: Make layout and transitions more presentable and cleaner for upgraded user experience.
+- **API**: Upgrade API plan or integrate another API
+- **Surf Spot Filters**: With integration of surfspots.json and upgraded API plan, allow a section for users to filter spots by region, distance from user's location, or wave size. 
 
-- ## Usage
+## Usage
 - Install Xcode
 - Add the GoogleService-Info.plist file for the Firebase integration to work.
 - Open SwellUpdate in Xcode Project
